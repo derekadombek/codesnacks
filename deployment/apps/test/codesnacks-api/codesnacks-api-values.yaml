@@ -1,0 +1,17 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: codesnacks-api
+  namespace: ${CODESNACKS_NAMESPACE}
+spec:
+  values:
+    fullnameOverride: codesnacks-api-test
+    releaseName: codesnacks-api-test
+    image:
+      tag: v1
+    ingress:
+      hosts:
+        - host: 127.0.0.1
+          paths:
+            - path: /boise/us/
