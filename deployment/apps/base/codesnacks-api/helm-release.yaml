@@ -10,10 +10,10 @@ spec:
     spec:
       chart: codesnacks-api
       version: v1
-      # sourceRef:
-      #   kind: ImageRepository
-      #   name: dockerhub-chart
-      #   namespace: flux-system
+      sourceRef:
+        # kind: ImageRepository
+        name: dockerhub-chart
+        namespace: flux-system
       interval: 5m
   install:
     remediation:
