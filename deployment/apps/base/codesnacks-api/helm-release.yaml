@@ -12,7 +12,7 @@ spec:
       version: v1
       sourceRef:
         kind: ImageRepository
-        name: codesnacks/weather
+        name: dockerhub-chart
         namespace: flux-system
       interval: 5m
   install:

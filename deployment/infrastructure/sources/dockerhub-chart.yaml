@@ -1,0 +1,8 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: dockerhub-chart
+spec:
+  interval: 15m
+  image: docker.io/codesnacks/weather

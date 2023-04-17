@@ -4,7 +4,6 @@ metadata:
   name: infrastructure-test
   namespace: flux-system
 spec:
-  timeout: 5m0s
   interval: 10m0s
   sourceRef:
     kind: GitRepository
