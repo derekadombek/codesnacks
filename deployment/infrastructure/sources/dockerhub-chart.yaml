@@ -6,3 +6,4 @@ metadata:
 spec:
   interval: 15m
   image: docker.io/codesnacks/weather
+#need to use: flux install --components-extra=image-reflector-controller,image-automation-controller
