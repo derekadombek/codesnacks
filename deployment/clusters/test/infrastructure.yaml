@@ -9,9 +9,8 @@ spec:
   sourceRef:
     kind: GitRepository
     name: codesnacks-test
-  path: ./deployment/apps/infrastructure
+  path: ./deployment/infrastructure
   prune: true
-  wait: true
   postBuild:
     substitute:
       CODESNACKS_NAMESPACE: "codesnacks-test"
