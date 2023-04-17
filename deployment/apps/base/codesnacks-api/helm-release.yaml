@@ -6,15 +6,15 @@ metadata:
   namespace: ${CODESNACKS_NAMESPACE}
 spec:
   interval: 5m
-  # chart:
-  #   spec:
-  #     chart: codesnacks-api
-  #     version: v1
-  #     sourceRef:
-  #       kind: ImageRepository
-  #       name: dockerhub-chart
-  #       namespace: flux-system
-  #     interval: 5m
+  chart:
+    spec:
+      chart: codesnacks-api
+      version: v1
+      # sourceRef:
+      #   kind: ImageRepository
+      #   name: dockerhub-chart
+      #   namespace: flux-system
+      interval: 5m
   install:
     remediation:
       retries: 3
