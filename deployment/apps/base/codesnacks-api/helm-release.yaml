@@ -9,10 +9,10 @@ spec:
   chart:
     spec:
       chart: codesnacks-api
-      version: v1
+      version: 0.1.0
       sourceRef:
-        # kind: ImageRepository
-        name: dockerhub-chart
+        kind: HelmRepository
+        name: ecr-chart
         namespace: flux-system
       interval: 5m
   install:
