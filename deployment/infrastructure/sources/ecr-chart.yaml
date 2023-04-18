@@ -6,4 +6,4 @@ metadata:
 spec:
   type: oci
   interval: 5m0s
-  url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com/weather-chart
+  url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com
