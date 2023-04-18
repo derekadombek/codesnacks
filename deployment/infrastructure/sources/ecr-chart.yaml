@@ -7,33 +7,3 @@ spec:
   type: oci
   interval: 5m0s
   url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com
----
-apiVersion: v1
-data:
-    AWS_ACCESS_KEY_ID: ENC[AES256_GCM,data:641zjicA3ey8O2zEo3dSxM2LK4g=,iv:xHz4RcKMMe4tY5Vi2BkBgXWEE1d2Xj+N8AeTk85z2SY=,tag:aGxm1FQ2k8x2pnTOIzHNTQ==,type:str]
-    AWS_SECRET_ACCESS_KEY: ENC[AES256_GCM,data:TvRScX8pJKBdT6b2gKybwnLFBiHDwu/e4pnubSRfhVMApYhwlyIpaA==,iv:J4IpP6lVZOv+FApN/mrtVnYhyhcDH1meUlC6o1gZoak=,tag:VJyswfNOGGXafSZOraRz8g==,type:str]
-kind: Secret
-metadata:
-    creationTimestamp: null
-    name: aws-creds
-    namespace: flux-system
-sops:
-    kms: []
-    gcp_kms: []
-    azure_kv: []
-    hc_vault: []
-    age:
-        - recipient: age1kntu99xresjk3jr64auhwx2huws2cdm3x7jpw92yj06hf4h6kgusxdl6su
-          enc: |
-            -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBDSTRNbVlqK29mY1NoOXh6
-            N1VsTktnbDdrbVIzWlBTR0h0Vk8rbWZoTHlJCnR1czBKT2FWb2VGWUk0a2FNaHhI
-            ZHh2WXc3MmhFQUZ4Y1BOUEFpMWNMRlkKLS0tIFJsOENqL3JuVjVJS3BmaDkyMUpL
-            S2ZXeVZlOU1NSEluUGVDcnR2dE1RT3MKTpAhZJuQdMadvakRoe/fyJMY54wqvV3b
-            gg/7h0HT/xVrIyQbTuYwjF7R9GSgZB2FVBl54JGA2oWUvRuZVqmAaA==
-            -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-04-18T21:08:14Z"
-    mac: ENC[AES256_GCM,data:p8lP8OHvJTtFm9CMbOt52qiQdbHlnIgZ6NHV9j4KN2wcVzZmza9tJZzU4zJ6ppI+NPvVdyZoxBJ55uf16AYJsJ0RLrcTWSRI0XKs/66iN1XX0bBbmoz+ryM/RPRsjhE7C4ev3F61it/0pWZ6nEXae1Qa0+0PgWoVxyS2sOK3PQU=,iv:xJZHUtiLcsYrUxASRlWiqSMHUybgFkFE5KAZt7oQFBg=,tag:lw6jzQCdHeTGXKD+Pf9CwA==,type:str]
-    pgp: []
-    encrypted_regex: ^(data|stringData)$
-    version: 3.7.3

@@ -27,6 +27,7 @@ spec:
       reclaimPolicy: Retain
     service:
       type: ClusterIP
+    secretName: aws-creds
     ingress:
       enabled: true
       annotations:
