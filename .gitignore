@@ -5,3 +5,5 @@ flux-system.yaml
 weather-chart-*
 
 .dev*
+
+.sops.yaml

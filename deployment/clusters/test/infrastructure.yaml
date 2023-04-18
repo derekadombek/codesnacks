@@ -10,6 +10,10 @@ spec:
     name: codesnacks-test
   path: ./deployment/infrastructure
   prune: true
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-age
   postBuild:
     substitute:
       CODESNACKS_NAMESPACE: "codesnacks-test"

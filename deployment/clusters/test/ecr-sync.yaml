@@ -62,7 +62,7 @@ spec:
             # IRSA. It is recommended to store the values in a Secret and load them in the container using envFrom.
             envFrom:
             - secretRef:
-                name: eks-creds
+                name: aws-creds
             env:
             - name: REGION
               value: us-west-2 # change this if ECR repo is in a different region
