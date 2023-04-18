@@ -1,32 +1,29 @@
 apiVersion: v1
 data:
-    AWS_ACCESS_KEY_ID: ENC[AES256_GCM,data:tu1PRFaPKc8FhIDp+HNXQQhN7LL3AtcPK9qzEg==,iv:lNVvrZu8DTLTkalhwPapP195qjN9y5DQib0flvX6mhM=,tag:DaIS4ZqdQjlUEkUFTWft4w==,type:str]
-    AWS_SECRET_ACCESS_KEY: ENC[AES256_GCM,data:ToeH5LcWqwrWLcTwesgxwqr8OMP4t3m5/6WaGwDq8/z9Qrrh7tfjVhU42wcydM49xubaS7uU6LI=,iv:7lAf+yoN9ETuelfW9qEsxRCIdq5UzN5qi6xJZgtze2E=,tag:Z2yFH3Sdc+O65ctUfSW9SQ==,type:str]
+    AWS_ACCESS_KEY_ID: ENC[AES256_GCM,data:Lq5IRDbqIXDjUB1VkS6iIASf67U6I+491oqaXw==,iv:MAozhVAyXuA3JR+XwQWoVSmsYtjmx4LMYTOx/eA4Q7U=,tag:pivp9gkILPAaJfcG/7W3OA==,type:str]
+    AWS_SECRET_ACCESS_KEY: ENC[AES256_GCM,data:4GoSvM3zi+6Vof7zNyNrcPtfscP/fC6gmrpwgOHVhIC0BSmB7KaK4ATujeF9I3WZJykayCMiJ2k=,iv:dGJH9otG89TjQRfOOGD9h5o7UMCi7NU5Ip11cQoKBK0=,tag:SnWCxYonFcCeY+3MliyOPw==,type:str]
 kind: Secret
 metadata:
-    creationTimestamp: "2023-04-18T19:29:48Z"
+    creationTimestamp: null
     name: aws-creds
     namespace: flux-system
-    resourceVersion: "88601"
-    uid: 2ec69b42-02b8-4a83-b6f7-45daa33f0dc5
-type: Opaque
 sops:
     kms: []
     gcp_kms: []
     azure_kv: []
     hc_vault: []
     age:
-        - recipient: age1helqcqsh9464r8chnwc2fzj8uv7vr5ntnsft0tn45v2xtz0hpfwq98cmsg
+        - recipient: age1kntu99xresjk3jr64auhwx2huws2cdm3x7jpw92yj06hf4h6kgusxdl6su
           enc: |
             -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2MjVQMXFqRzZRdG1nUFBM
-            U3VhTmJ0S3NQc2VZWnhYSWw1c1pod1c4eUFBCjlMa2gzSjYvNTVzcS84MGFNWG9p
-            bFYrOHdUNElGQWl1STI5V00zeEp2cWMKLS0tIE9EN2xhZDRORzJtRHhhaFp0MmFT
-            YXp6d0VVbTNaWlNwMVFyRG9oTWRvL1kK9/MfVFdKMMBHUn84OE+f3UizMIK95w0e
-            tsG7mZNWwUShpmXMOIi04aPAOFysMYtDfaAqVx0QIFsc+ek0htwW4g==
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2ZWhzQkNtUzZBUzNxa2Ex
+            MkNZSEY2aHhaOW9oMVdBS0R2VmI2RlVFbWdFCnp2M0dmUnc2eXpVczY1NERFaXkx
+            R05KeFZjbXVuMFhxN3JNbEFTNkNkdW8KLS0tIEY0QWdSb2FFK3pqd0dWVkNVNmNh
+            aURjdHhRSVJBcUFuUTVDT01DVTY1QzQKbYs3Zb2sdk6wt20e/j6FgyCXxH1Zgrqs
+            RKScXqrEPTLX4TOJ8kfv7Z2z5D0KNsxXsaCnSwt6Au/vCDlePhyPdA==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-04-18T19:37:30Z"
-    mac: ENC[AES256_GCM,data:D073uLVClShiQ8xqXZCfxRkzZRwaVzbKmeAeKyJF+BHyohPiN6HH5NaBxGUXkWbAdASOJUZ7WPNaZnz1f6nw+b+cF1RdW7nGjVKv+RoNLZLWf4jX/oyuFHdr1UO1Vqc2yb0sX2PfbGhlrgNAhMkQ/DY0NJZ8tGR706IXPEVjZ/E=,iv:MORw37dUNoCuDpD2kcbZSNTTkYF65SvnLHmAgHhe9vs=,tag:0/wMw/k2nQ43m5IMN9rEEg==,type:str]
+    lastmodified: "2023-04-18T20:45:14Z"
+    mac: ENC[AES256_GCM,data:rmML5AvBhxsad9eP5KBawI0XPcyH0Jbxrwb2kyks4f/8RvGD8ekpoTFWthtCmHSRcuTN66jlBFB4OAp6AXD8zMIgOnkMiJliC0bSh368oNmKG7OK5XgYmTOe1udUKttKrXwsQCZwPPEKkHP3/sFWC2ID4q4DaB1LVPK7pT6W168=,iv:PnrwBpYnOi4w5xQlTjWYbOhHIZAzHNgOyoa1+VkxGQI=,tag:RopsTybdUvUt0IVSoOGmLQ==,type:str]
     pgp: []
     encrypted_regex: ^(data|stringData)$
     version: 3.7.3

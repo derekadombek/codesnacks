@@ -1,0 +1,6 @@
+---
+creation_rules:
+  - direct_path_regex: ./deployment/clusters/test/aws-creds-sops.yaml
+    encrypted-regex: '^(data|stringData)$'
+    age: >-
+      age1kntu99xresjk3jr64auhwx2huws2cdm3x7jpw92yj06hf4h6kgusxdl6su
