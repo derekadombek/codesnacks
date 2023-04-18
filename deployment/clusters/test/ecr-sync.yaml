@@ -79,7 +79,7 @@ spec:
             imagePullPolicy: IfNotPresent
             env:
             - name: SECRET_NAME
-              value: ecr-credentials
+              value: aws-creds
             - name: ECR_REGISTRY
               value: 722647055695.dkr.ecr.us-west-2.amazonaws.com # fill in the account id and region
             volumeMounts:
