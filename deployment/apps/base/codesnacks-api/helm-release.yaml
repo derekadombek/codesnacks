@@ -14,8 +14,6 @@ spec:
         kind: HelmRepository
         name: ecr-chart
         namespace: flux-system
-      secretRef:
-        aws-creds
       interval: 5m
   install:
     remediation:
