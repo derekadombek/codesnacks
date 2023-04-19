@@ -10,6 +10,7 @@ spec:
   url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com
   secretRef:
     name: aws-creds
+  prune: true
 ---
 apiVersion: v1
 data:
