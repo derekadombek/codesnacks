@@ -6,8 +6,8 @@ metadata:
   namespace: ${CODESNACKS_NAMESPACE}
 spec:
   values:
-    fullnameOverride: weather-chart-test
-    releaseName: weather-chart-test
+    fullnameOverride: weather-app-test
+    releaseName: weather-app-test
     image:
       tag: v1
     ingress:
