@@ -8,7 +8,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: ./deployment/charts/weather-chart
+      chart: ./charts/weather-chart
       sourceRef:
         kind: GitRepository
         name: weather-chart
