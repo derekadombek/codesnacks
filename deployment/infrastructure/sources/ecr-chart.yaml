@@ -4,6 +4,7 @@ metadata:
   name: ecr-chart
   namespace: flux-system
 spec:
+  provider: aws
   interval: 5m0s
   url: 722647055695.dkr.ecr.us-west-2.amazonaws.com
   secretRef:
