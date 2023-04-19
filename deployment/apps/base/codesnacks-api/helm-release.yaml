@@ -8,7 +8,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: ./weather-chart-0.1.3.tgz
+      chart: ./charts/weather-chart/
       sourceRef:
         kind: GitRepository
         name: weather-chart
