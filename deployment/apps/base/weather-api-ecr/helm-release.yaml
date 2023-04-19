@@ -13,7 +13,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: ecr-weather-chart
-        namespace: flux-system
+        namespace: ${CODESNACKS_NAMESPACE}
       interval: 1m
   install:
     remediation:

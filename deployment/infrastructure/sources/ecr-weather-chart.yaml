@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: ecr-weather-chart
-  namespace: flux-system
+  namespace: ${CODESNACKS_NAMESPACE}
 spec:
   type: "oci"
   provider: aws
