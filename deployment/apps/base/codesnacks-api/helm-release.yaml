@@ -8,10 +8,9 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: weather-chart
-      version: 0.1.2
+      chart: ./deployment/charts/weather-chart
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: ecr-chart
         namespace: flux-system
       interval: 5m
