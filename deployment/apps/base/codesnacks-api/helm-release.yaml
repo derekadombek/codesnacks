@@ -11,7 +11,7 @@ spec:
       chart: ./deployment/charts/weather-chart
       sourceRef:
         kind: GitRepository
-        name: ecr-chart
+        name: weather-chart
         namespace: flux-system
       interval: 5m
   install:
