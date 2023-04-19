@@ -4,4 +4,4 @@ flux-system.yaml
 
 .dev*
 
-./charts/weather-chart-*
+charts/weather-chart-*
