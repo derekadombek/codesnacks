@@ -3,3 +3,5 @@ venv
 flux-system.yaml
 
 .dev*
+
+./charts/weather-chart-*
