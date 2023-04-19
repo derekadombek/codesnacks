@@ -5,7 +5,7 @@ metadata:
   namespace: ${CODESNACKS_NAMESPACE}
 spec:
   interval: 1m
-  url: ssh://git@github.com/derekadombek/codesnacks
+  url: ssh://git@github.com/derekadombek/codesnacks/deployment
   ref:
     branch: main
   secretRef:
