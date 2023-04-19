@@ -4,9 +4,10 @@ metadata:
   name: ecr-chart
   namespace: flux-system
 spec:
+  type: "oci"
   provider: aws
-  interval: 5m0s
-  url: 722647055695.dkr.ecr.us-west-2.amazonaws.com
+  interval: 1m0s
+  url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com
   secretRef:
     name: aws-creds
 ---
