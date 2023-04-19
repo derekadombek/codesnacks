@@ -14,7 +14,6 @@ spec:
         name: weather-chart
         namespace: flux-system
       interval: 5m
-      reconcileStrategy: Revision
   install:
     remediation:
       retries: 3
