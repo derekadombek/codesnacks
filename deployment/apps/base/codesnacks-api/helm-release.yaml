@@ -2,7 +2,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: codesnacks-api
+  name: weather-chart
   namespace: ${CODESNACKS_NAMESPACE}
 spec:
   interval: 1m
