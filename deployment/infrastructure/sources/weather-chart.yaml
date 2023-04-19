@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: weather-chart
-  namespace: flux-system
+  namespace: default
 spec:
   interval: 1m
   url: ssh://git@github.com/derekadombek/codesnacks
