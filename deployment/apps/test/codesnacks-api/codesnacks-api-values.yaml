@@ -2,12 +2,12 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: codesnacks-api
+  name: weather-chart
   namespace: ${CODESNACKS_NAMESPACE}
 spec:
   values:
-    fullnameOverride: codesnacks-api-test
-    releaseName: codesnacks-api-test
+    fullnameOverride: weather-chart-test
+    releaseName: weather-chart-test
     image:
       tag: v1
     ingress:
