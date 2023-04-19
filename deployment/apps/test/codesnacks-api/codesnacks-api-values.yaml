@@ -12,6 +12,6 @@ spec:
       tag: v1
     ingress:
       hosts:
-        - host: 127.0.0.1
+        - host:
           paths:
             - path: /boise/us/
