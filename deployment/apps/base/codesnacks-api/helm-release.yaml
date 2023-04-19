@@ -12,6 +12,7 @@ spec:
       sourceRef:
         kind: GitRepository
         name: weather-chart
+        namespace: flux-system
       interval: 1m
   install:
     remediation:
