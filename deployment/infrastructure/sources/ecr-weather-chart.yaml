@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: ecr-weather-chart
+  name: ecr-chart
   namespace: flux-system
 spec:
   type: "oci"
