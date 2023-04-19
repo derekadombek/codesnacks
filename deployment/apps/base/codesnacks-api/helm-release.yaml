@@ -8,12 +8,13 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: ./charts/weather-chart
+      chart: ./deployment/charts/weather-chart
       sourceRef:
         kind: GitRepository
         name: weather-chart
         namespace: flux-system
       interval: 5m
+      reconcileStrategy: Revision
   install:
     remediation:
       retries: 3
