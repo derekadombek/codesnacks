@@ -9,7 +9,7 @@ spec:
   chart:
     spec:
       chart: helm/weather-chart
-      version: 0.1.2
+      version: 
       sourceRef:
         kind: HelmRepository
         name: ecr-weather-chart
