@@ -9,12 +9,15 @@ spec:
   chart:
     spec:
       chart: helm/weather-chart
+      version:
       sourceRef:
         kind: HelmRepository
         name: ecr-weather-chart
         namespace: flux-system
       interval: 1m
       reconcileStrategy: Revision
+      secretRef:
+        name: aws-credentials
   install:
     remediation:
       retries: 3
