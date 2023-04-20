@@ -8,8 +8,8 @@ spec:
   provider: aws
   interval: 1m0s
   url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com
-  # secretRef:
-  #   name: aws-credentials
+  secretRef:
+    name: aws-credentials
 ---
 apiVersion: v1
 data:
