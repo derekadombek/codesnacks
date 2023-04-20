@@ -8,7 +8,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: weather-chart
+      chart: /helm/weather-chart
       version: 0.1.2
       sourceRef:
         kind: HelmRepository
