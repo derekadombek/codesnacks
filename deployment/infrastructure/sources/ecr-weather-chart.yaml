@@ -9,7 +9,7 @@ spec:
   interval: 1m0s
   url: public.ecr.aws/p7v1e8f0/helm
   secretRef:
-    name: aws-creds
+    name: aws-credentials
 ---
 apiVersion: v1
 data:
