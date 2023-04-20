@@ -8,8 +8,8 @@ spec:
   provider: aws
   interval: 1m0s
   url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com/helm
-  secretRef:
-    name: aws-creds
+  # secretRef:
+  #   name: aws-creds
 ---
 apiVersion: v1
 data:
