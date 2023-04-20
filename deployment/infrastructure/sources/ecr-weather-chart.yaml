@@ -7,7 +7,7 @@ spec:
   type: "oci"
   provider: aws
   interval: 1m0s
-  url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com
+  url: oci://722647055695.dkr.ecr.us-east-1.amazonaws.com
   secretRef:
     name: aws-credentials
 ---
