@@ -4,10 +4,10 @@ metadata:
   name: ecr-weather-chart
   namespace: flux-system
 spec:
-  # type: "oci"
+  type: "oci"
   provider: aws
   interval: 1m0s
-  url: public.ecr.aws/p7v1e8f0/helm
+  url: oci://722647055695.dkr.ecr.us-west-2.amazonaws.com/helm
   secretRef:
     name: aws-credentials
 ---
