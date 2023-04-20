@@ -14,8 +14,6 @@ spec:
         kind: HelmRepository
         name: ecr-weather-chart
         namespace: flux-system
-        secretRef:
-          name: aws-credentials
       interval: 1m
       reconcileStrategy: Revision
   install:
