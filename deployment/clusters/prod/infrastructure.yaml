@@ -1,0 +1,22 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: infrastructure-prod
+  namespace: flux-system
+spec:
+  interval: 10m0s
+  sourceRef:
+    kind: GitRepository
+    name: codesnacks-prod
+  path: ./deployment/infrastructure
+  prune: true
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-age
+  postBuild:
+    substitute:
+      CODESNACKS_NAMESPACE: "codesnacks-prod"
+    substituteFrom:
+      - kind: ConfigMap
+        name: prod-config

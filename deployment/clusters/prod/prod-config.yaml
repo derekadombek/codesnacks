@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prod-config
+  namespace: flux-system
+data:
+  CODESNACKS_NAMESPACE: codesnacks-prod
+  ROOT_URL: codesnacks-prod.prod:443/
