@@ -4,5 +4,5 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - weather-api-git
-  - weather-api-ecr
+  # - weather-api-ecr
   - vault
